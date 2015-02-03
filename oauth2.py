@@ -3,11 +3,11 @@
 """
     A demostration of a simple BearerToken class.
 
-    Active tokens are stored in redis via the Flask-OAuth2 extension. When
+    Active tokens are stored in redis via the Flask-Sentinel extension. When
     a request hits a API endpoint all we need to do is verify that a token
     is provided with the request and that said token is active.
 
-    See https://github.com/nicolaiarocci/flask-oauth2.
+    See https://github.com/nicolaiarocci/flask-sentinel
 
     :copyright: (c) 2015 by Nicola Iarocci.
     :license: BSD, see LICENSE for more details.

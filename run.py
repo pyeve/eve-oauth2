@@ -6,7 +6,7 @@
 
     This is a fork of Eve Demo (https://github.com/nicolaiarocci/eve-demo)
     intended to demonstrate how a Eve API can be secured by means of
-    Flask-OAuth2.
+    Flask-Sentinel.
 
     For demonstration purposes, besides protecting a couple API endpoints
     with a BearerToken class instance, we are also adding a static html
@@ -18,7 +18,7 @@
 
 from eve import Eve
 from oauth2 import BearerAuth
-from flask.ext.oauth2 import ResourceOwnerPasswordCredentials, oauth
+from flask.ext.sentinel import ResourceOwnerPasswordCredentials, oauth
 
 app = Eve(auth=BearerAuth)
 ResourceOwnerPasswordCredentials(app)

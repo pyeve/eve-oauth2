@@ -18,7 +18,7 @@
 
 from eve import Eve
 from oauth2 import BearerAuth
-from flask_oauth2 import ResourceOwnerPasswordCredentials, oauth
+from flask.ext.oauth2 import ResourceOwnerPasswordCredentials, oauth
 
 app = Eve(auth=BearerAuth)
 ResourceOwnerPasswordCredentials(app)

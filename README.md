@@ -26,9 +26,9 @@ and isolated network of (micro?) services.
 Eve-OAuth2 is a [Nicola Iarocci][5] and [Gestionali Amica][6] open source
 project distributed under the [BSD license][7].
 
-[1]: https://github.com/nicolaiarocci/eve-demo
+[1]: https://github.com/pyeve/eve-demo
 [2]: http://python-eve.org
-[3]: https://github.com/nicolaiarocci/flask-sentinel
+[3]: https://github.com/pyeve/flask-sentinel
 [5]: http://nicolaiarocci.com
 [6]: http://gestionaleamica.com
-[7]: https://github.com/nicolaiarocci/eve-oauth2/blob/master/LICENSE
+[7]: https://github.com/pyeve/eve-oauth2/blob/master/LICENSE

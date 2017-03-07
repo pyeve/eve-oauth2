@@ -4,7 +4,7 @@
     Eve Demo (Secured)
     ~~~~~~~~~~~~~~~~~~
 
-    This is a fork of Eve Demo (https://github.com/nicolaiarocci/eve-demo)
+    This is a fork of Eve Demo (https://github.com/pyeve/eve-demo)
     intended to demonstrate how a Eve API can be secured by means of
     Flask-Sentinel.
 

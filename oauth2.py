@@ -7,7 +7,7 @@
     a request hits a API endpoint all we need to do is verify that a token
     is provided with the request and that said token is active.
 
-    See https://github.com/nicolaiarocci/flask-sentinel
+    See https://github.com/pyeve/flask-sentinel
 
     :copyright: (c) 2015 by Nicola Iarocci.
     :license: BSD, see LICENSE for more details.

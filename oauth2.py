@@ -24,6 +24,9 @@ class BearerAuth(BasicAuth):
     def __init__(self):
         super(BearerAuth, self).__init__()
         self.redis = StrictRedis()
+        self.redis.connection_pool = ConnectionPool.from_url(os.environ.get(
+            'REDIS_URL',
+            'redis://localhost:6379'))
 
     def check_auth(self, token, allowed_roles, resource, method):
         """ Check if API request is authorized.
